@@ -8,8 +8,6 @@
       <small><%= place.user.email %></small>
     <% end %>
   </div>
-
 <% end %>
 
-
-
+<%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
