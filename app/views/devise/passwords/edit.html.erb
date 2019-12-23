@@ -19,11 +19,11 @@
                 required: true,
                 input_html: { autocomplete: "new-password" } %>
   </div>
-
-  <div class="form-actions">
-    <%= f.button :submit, "Change my password", class: 'btn btn-primary' %>
-  </div>
-<% end %>
-<br />
-<%= render "devise/shared/links" %>
+  <br />
+    <div class="form-actions">
+      <%= f.button :submit, "Change my password", class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+  <br />
+  <%= render "devise/shared/links" %>
 </div>
